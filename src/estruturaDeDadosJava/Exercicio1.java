@@ -22,6 +22,8 @@ public class Exercicio1 {
 		
 		estaVazioOuNao(arrayInteiros);
 		
+		arrayInteiros.remove(0);
+		
 		arrayInteiros.clear();
 		estaVazioOuNao(arrayInteiros);
 	}
